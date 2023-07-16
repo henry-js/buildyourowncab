@@ -1,59 +1,15 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumbleDialogBox", "HumbleDialogBox\HumbleDialogBox.csproj", "{5C4A70A4-AD04-4878-97A5-E05905610042}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HumbleDialogBox", "HumbleDialogBox\HumbleDialogBox.csproj", "{EE4364E4-9266-4538-BFD3-33DFFDDD6A20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumbleDialogBox.Tests", "HumbleDialogBox.Tests\HumbleDialogBox.Tests.csproj", "{F519FDE7-89B9-41F4-8BCD-7CF32F93A4F9}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PassiveView", "PassiveView\PassiveView.csproj", "{5371E97F-59B0-4DE1-8FC6-25B3906CD72D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Part 2 - HumbleDialogBox", "Part 2 - HumbleDialogBox", "{94CD024D-95BB-4416-B3A4-713687AB9DAB}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SupervisingController", "SupervisingController\SupervisingController.csproj", "{172B203F-F5A7-41F8-B7B9-17E859CFA7D4}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Part 3 - Supervising Controller", "Part 3 - Supervising Controller", "{D9C0045A-8118-44CE-9B0B-27508FFBADE0}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupervisingController", "SupervisingController\SupervisingController.csproj", "{C754F182-D21C-4D91-ABBF-EB2BEDE34B5E}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupervisingController.Tests", "SupervisingController.Tests\SupervisingController.Tests.csproj", "{01C8AA6D-E7D6-4D1C-A287-8E44164B29BA}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Part 4 - Passive View", "Part 4 - Passive View", "{3C418196-BDAA-4AFD-A7E2-0AA850EBC931}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassiveView", "PassiveView\PassiveView.csproj", "{D61D848E-3089-4F64-8DAE-7689AEAE7035}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassiveView.Tests", "PassiveView.Tests\PassiveView.Tests.csproj", "{D17B3914-F419-4FC9-8C41-26449D0AF2DC}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresentationModel", "PresentationModel\PresentationModel.csproj", "{D4222B5E-41C1-4B0B-BBF3-75AAEF248F3C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,40 +17,27 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5C4A70A4-AD04-4878-97A5-E05905610042}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5C4A70A4-AD04-4878-97A5-E05905610042}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5C4A70A4-AD04-4878-97A5-E05905610042}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5C4A70A4-AD04-4878-97A5-E05905610042}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F519FDE7-89B9-41F4-8BCD-7CF32F93A4F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F519FDE7-89B9-41F4-8BCD-7CF32F93A4F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F519FDE7-89B9-41F4-8BCD-7CF32F93A4F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F519FDE7-89B9-41F4-8BCD-7CF32F93A4F9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C754F182-D21C-4D91-ABBF-EB2BEDE34B5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C754F182-D21C-4D91-ABBF-EB2BEDE34B5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C754F182-D21C-4D91-ABBF-EB2BEDE34B5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C754F182-D21C-4D91-ABBF-EB2BEDE34B5E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{01C8AA6D-E7D6-4D1C-A287-8E44164B29BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{01C8AA6D-E7D6-4D1C-A287-8E44164B29BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{01C8AA6D-E7D6-4D1C-A287-8E44164B29BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{01C8AA6D-E7D6-4D1C-A287-8E44164B29BA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D61D848E-3089-4F64-8DAE-7689AEAE7035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D61D848E-3089-4F64-8DAE-7689AEAE7035}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D61D848E-3089-4F64-8DAE-7689AEAE7035}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D61D848E-3089-4F64-8DAE-7689AEAE7035}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D17B3914-F419-4FC9-8C41-26449D0AF2DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D17B3914-F419-4FC9-8C41-26449D0AF2DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D17B3914-F419-4FC9-8C41-26449D0AF2DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D17B3914-F419-4FC9-8C41-26449D0AF2DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE4364E4-9266-4538-BFD3-33DFFDDD6A20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE4364E4-9266-4538-BFD3-33DFFDDD6A20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE4364E4-9266-4538-BFD3-33DFFDDD6A20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE4364E4-9266-4538-BFD3-33DFFDDD6A20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5371E97F-59B0-4DE1-8FC6-25B3906CD72D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5371E97F-59B0-4DE1-8FC6-25B3906CD72D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5371E97F-59B0-4DE1-8FC6-25B3906CD72D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5371E97F-59B0-4DE1-8FC6-25B3906CD72D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{172B203F-F5A7-41F8-B7B9-17E859CFA7D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{172B203F-F5A7-41F8-B7B9-17E859CFA7D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{172B203F-F5A7-41F8-B7B9-17E859CFA7D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{172B203F-F5A7-41F8-B7B9-17E859CFA7D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4222B5E-41C1-4B0B-BBF3-75AAEF248F3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4222B5E-41C1-4B0B-BBF3-75AAEF248F3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4222B5E-41C1-4B0B-BBF3-75AAEF248F3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4222B5E-41C1-4B0B-BBF3-75AAEF248F3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{F519FDE7-89B9-41F4-8BCD-7CF32F93A4F9} = {94CD024D-95BB-4416-B3A4-713687AB9DAB}
-		{5C4A70A4-AD04-4878-97A5-E05905610042} = {94CD024D-95BB-4416-B3A4-713687AB9DAB}
-		{C754F182-D21C-4D91-ABBF-EB2BEDE34B5E} = {D9C0045A-8118-44CE-9B0B-27508FFBADE0}
-		{01C8AA6D-E7D6-4D1C-A287-8E44164B29BA} = {D9C0045A-8118-44CE-9B0B-27508FFBADE0}
-		{D61D848E-3089-4F64-8DAE-7689AEAE7035} = {3C418196-BDAA-4AFD-A7E2-0AA850EBC931}
-		{D17B3914-F419-4FC9-8C41-26449D0AF2DC} = {3C418196-BDAA-4AFD-A7E2-0AA850EBC931}
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E271D02-9414-4320-86BC-0201AF81F1F3}
 	EndGlobalSection
 EndGlobal

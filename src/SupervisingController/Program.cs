@@ -1,20 +1,16 @@
-using System;
-using System.Collections.Generic;
-using System.Windows.Forms;
+namespace SupervisingController;
 
-namespace SupervisingController
+static class Program
 {
-    static class Program
+    /// <summary>
+    ///  The main entry point for the application.
+    /// </summary>
+    [STAThread]
+    static void Main()
     {
-        /// <summary>
-        /// The main entry point for the application.
-        /// </summary>
-        [STAThread]
-        static void Main()
-        {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ShippingScreen());
-        }
-    }
+        // To customize application configuration such as set high DPI settings or default font,
+        // see https://aka.ms/applicationconfiguration.
+        ApplicationConfiguration.Initialize();
+        Application.Run(new ShippingScreen());
+    }    
 }

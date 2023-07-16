@@ -12,7 +12,7 @@ namespace SupervisingController
             InitializeComponent();
 
             presenter = new ShippingScreenPresenter(this, new ShippingService());
-
+            
             presenter.Start();
         }
 
