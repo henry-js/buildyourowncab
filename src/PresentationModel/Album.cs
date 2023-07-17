@@ -52,11 +52,11 @@ public class Album : INotifyPropertyChanged
         }
         set
         {
-            if (_composer != value)
-            {
-                _composer = value;
-                fireChanged();
-            }
+            if (_composer == value)
+                return;
+            if (_isClassical)
+            _composer = value;
+            fireChanged();
         }
     }
 
